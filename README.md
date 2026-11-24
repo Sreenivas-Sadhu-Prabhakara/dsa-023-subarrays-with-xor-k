@@ -12,6 +12,13 @@ Same prefix trick as zero-sum subarrays, but in XOR arithmetic, where subtractio
 
 **Complexity:** O(n) time, O(n) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
